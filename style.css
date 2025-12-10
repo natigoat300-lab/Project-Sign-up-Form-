@@ -1,0 +1,85 @@
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#container {
+    display: flex;
+}
+p {
+    font-weight: bold;
+    margin: 55px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#fillUser {
+    display: flex;
+    gap: 75px;
+}
+
+#confirm_pass:valid {
+    border-color: green;
+}
+#confirm_pass:invalid {
+    border-color:red;
+}
+#user_password:valid {
+    border-color: green;
+}
+#user_password:invalid {
+    border-color:red;
+}
+
+
+body {
+    background-color: lab(90.41% -1.04 1.82 / 0.658);
+}
+
+#sidebar {
+  width: 100%;
+  height: 100vh;
+  background: url("/images/halie-west-25xggax4bSA-unsplash (2).jpg") center/cover;
+  align-items: flex-start;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 25px;
+  background: rgba(0,0,0,0.5); 
+  margin-top: 150px;            
+  margin-left:auto;
+  margin-right: auto;         
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+@font-face {
+    font-family: myFont;
+    src: url(Norse-Bold.otf);
+}
+.logo span {
+  font-family:myFont,'Cinzel', serif;
+  font-size: 90px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+#submit {
+    color: white;
+    padding: 6px 22px 6px;
+    background-color: #596D48;
+    margin: 22px;
+}
+#whiteBack {
+    background-color: rgb(255, 255, 255);
+    padding: 32px;
+    box-shadow: 4px 4px #d3cece;
+    
+} 
+

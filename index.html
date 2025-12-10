@@ -3,9 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div id="container">
+        <!-- Sidebar with Odin logo -->
+        <div id="sidebar">
+            <div class="logo">
+                <img src="/images/odin-lined.png" alt="">
+                <span>ODIN</span>
+            </div>
+        </div>
+
+        <!-- Main content / form area -->
+        <div id="nonImg">
+            <p class="color">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis ad necessitatibus molestias cupiditate voluptates modi, vel repellendus sequi laborum natus quia eveniet, provident rem ipsum harum hic facilis in esse.
+            </p>
+            <p class="color">You know you want to</p>
+
+            <!-- Single Form to hold all inputs -->
+            <form action="" method="POST">
+                <div id="whiteBack">
+                    <h1>let's do this</h1>
+                    <div id="fillUser">
+                        <div>
+                            <!-- First Name -->
+                            <label for="first_name">FIRST NAME</label><br>
+                            <input type="text" name="first_name" id="first_name" req><br><br>
+
+                            <!-- Email -->
+                            <label for="user_email">EMAIL</label><br>
+                            <input type="email" name="email" id="user_email"><br><br>
+
+                            <!-- Password -->
+                            <label for="user_password">PASSWORD</label><br>
+                            <input type="password" id="user_password" name="password" required><br><br>
+                        </div>
+                         
+                        <div>
+                            <!-- Last Name -->
+                            <label for="last_name">LAST NAME</label><br>
+                            <input type="text" id="last_name"><br><br>
+
+                            <!-- Phone Number -->
+                            <label for="user_phNum">PHONE NUMBER</label><br>
+                            <input type="tel" id="user_phNum" required><br><br>
+
+                            <!-- Confirm Password -->
+                            <label for="confirm_pass">CONFIRM PASSWORD</label><br>
+                            <input type="password" name="confirm_password" id="confirm_pass" required>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" id="submit">Create Account</button>
+            </form>
+
+            <!-- Login Link -->
+            <p>Already have an account? <a href="#">Login</a></p>
+        </div>
+    </div>
 </body>
 </html>
